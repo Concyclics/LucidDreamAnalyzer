@@ -1,0 +1,44 @@
+##
+Definition:
+
+Negative Valence Systems are primarily responsible for responses to aversive situations or context, such as fear, anxiety, and loss.
+
+Constructs:
+
+Acute Threat (Fear): Activation of the brain’s defensive motivational system to promote behaviors that protect the organism from perceived danger. Normal fear involves a pattern of adaptive responses to conditioned or unconditioned threat stimuli (exteroceptive or interoceptive). Fear can involve internal representations and cognitive processing and can be modulated by a variety of factors.
+
+Potential Threat (Anxiety): Activation of a brain system in which harm may potentially occur but is distant, ambiguous, or low/uncertain in probability, characterized by a pattern of responses such as enhanced risk assessment (vigilance). These responses to low imminence threats are qualitatively different than the high imminence threat behaviors that characterize fear.
+
+Sustained Threat: An aversive emotional state caused by prolonged (i.e., weeks to months) exposure to internal and/or external condition(s), state(s), or stimuli that are adaptive to escape or avoid. The exposure may be actual or anticipated; the changes in affect, cognition, physiology, and behavior caused by sustained threat persist in the absence of the threat and can be differentiated from those changes evoked by acute threat.
+
+Loss: A state of deprivation of a motivationally significant con-specific, object, or situation. Loss may be social or non-social and may include permanent or sustained loss of shelter, behavioral control, status, loved ones, or relationships. The response to loss may be episodic (e.g., grief) or sustained.
+
+Frustrative Nonreward: Reactions elicited in response to withdrawal/prevention of reward, i.e., by the inability to obtain positive rewards following repeated or sustained efforts.
+
+##
+Role: You are now a phychological analyst. You are only responsible for analyzing the negative valence system domain of the given psychological report. You are required to do two actions. 
+
+1. Judge all the constructs or subconstructs under the negative valence system domain to see if they are present in the given paragraph.
+2. For those constructs/subconstructs that exist in the given paragraph, rate them based on the Rating Rule.
+
+Rating Rule:
+1) Any given construct will be rated by 5 numbers: {-2, -1, 0, 1, 2}
+2) The standard of each score is explained as follow:
+"2": The construct/subconstruct exists in the paragraph, and it exists in more than 40% description of the paragraph.
+"1": The construct/subconstruct exists in the description of the given paragraph for less than 40% of the content.
+"0": The construct/subconstruct doesn't exist in the given paragraph
+"-1":  The construct/subconstruct exists in the negative direction of its definition for less than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+"-2":  The construct/subconstruct exists in the negative direction of its definition for more than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+
+##
+Outcome:
+Your outcome should be recorded as 5 dimensional vector as follow.
+(Acute Threat (Fear), Potential Threat (Anxiety), Sustained Threat, Loss, Frustrative Nonreward)
+Your outcome should be stored as pure number.
+E.g: "target vector"=(1, 1, 2, -1, 0)
+
+##
+Think carefully, list your thinking process, and generate:
+NVS:("target vector")
+
+

@@ -1,0 +1,62 @@
+##
+Definition:
+
+Cognitive Systems are responsible for various cognitive processes.
+
+Constructs:
+
+Attention: Attention refers to a range of processes that regulate access to capacity-limited systems, such as awareness, higher perceptual processes, and motor action. The concepts of capacity limitation and competition are inherent to the concepts of selective and divided attention.
+
+Perception: Perception refers to the process(es) that perform computations on sensory data to construct and transform representations of the external environment, acquire information from, and make predictions about, the external world, and guide action.
+
+Subconstructs:
+Visual Perception
+Auditory Perception
+Olfactory/Somatosensory/Multimodal/Perception
+
+Declarative Memory: Declarative memory is the acquisition or encoding, storage and consolidation, and retrieval of representations of facts and events. Declarative memory provides the critical substrate for relational representations—i.e., for spatial, temporal, and other contextual relations among items, contributing to representations of events (episodic memory) and the integration and organization of factual knowledge (semantic memory). These representations facilitate the inferential and flexible extraction of new information from these relationships.
+
+Language: Language is a system of shared symbolic representations of the world, the self and abstract concepts that supports thought and communication.
+
+Cognitive Control: A system that modulates the operation of other cognitive and emotional systems, in the service of goal-directed behavior, when prepotent modes of responding are not adequate to meet the demands of the current context. Additionally, control processes are engaged in the case of novel contexts, where appropriate responses need to be selected from among competing alternatives.
+
+Subconstructs:
+Goal Selection, Updating, Representation, and Maintenance
+Response Selection; Inhibition/Suppression
+Performance Monitoring
+
+Working Memory: Working Memory is the active maintenance and flexible updating of goal/task relevant information (items, goals, strategies, etc.) in a form that has limited capacity and resists interference. These representations: may involve flexible binding of representations; may be characterized by the absence of external support for the internally maintained representations; and are frequently temporary, though this may be due to ongoing interference. It involves active maintenance, flexible updating, limited capacity, and interference control.
+
+Subconstructs:
+Active Maintenance
+Flexible updating
+Limited Capacity
+Interference Control
+
+##
+Role: You are now a phychological analyst. You are only responsible for analyzing the cognitive system domain of the given psychological report. You are required to do two actions. 
+
+1. Judge all the constructs or subconstructs under the cognitive system domain domain to see if they are present in the given paragraph.
+2. For those constructs/subconstructs that exist in the given paragraph, rate them based on the Rating Rule.
+
+Rating Rule:
+1) Any given construct will be rated by 5 numbers: {-2, -1, 0, 1, 2}
+2) The standard of each score is explained as follow:
+"2": The construct/subconstruct exists in the paragraph, and it exists in more than 40% description of the paragraph.
+"1": The construct/subconstruct exists in the description of the given paragraph for less than 40% of the content.
+"0": The construct/subconstruct doesn't exist in the given paragraph
+"-1":  The construct/subconstruct exists in the negative direction of its definition for less than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+"-2":  The construct/subconstruct exists in the negative direction of its definition for more than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+
+##
+Outcome:
+Your outcome should be recorded as 22 dimensional vector as follow.
+(Attention, Perception, Visual Perception, Auditory Perception, Olfactory Perception, Somatosensory Perception, Multimodal Perception, Declarative Memory, Language, Cognitive Control, Goal Selection, Goal Updating, Goal Representation, Maintenance, Response Selection, Inhibition/Suppression, Performance Monitoring, Working Memory, Active Maintenance, Flexible Updating, Limited Capacity, Interference Control)
+Your outcome should be stored as pure number.
+E.g:  "target vector"=(1, -1, 2, 0, -1, 1, 1, 2, 1, -2, 2, 1, 2, 2, 1, -1, 2, -2, 2, 1, -1, 1)
+
+##
+Think carefully, list your thinking process, and generate:
+CS:("target vector")
+
+

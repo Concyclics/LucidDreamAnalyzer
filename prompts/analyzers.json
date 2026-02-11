@@ -1,0 +1,125 @@
+{
+  "analyzers": [
+    {
+      "id": "negative_valence",
+      "tag": "NVS",
+      "name": "Negative Valence Systems",
+      "prompt_file": "negative valence system.txt",
+      "vector_length": 5,
+      "dimension_labels": [
+        "Acute Threat (Fear)",
+        "Potential Threat (Anxiety)",
+        "Sustained Threat",
+        "Loss",
+        "Frustrative Nonreward"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "positive_valence",
+      "tag": "PVS",
+      "name": "Positive Valence Systems",
+      "prompt_file": "positive valance system.txt",
+      "vector_length": 9,
+      "dimension_labels": [
+        "Reward Anticipation",
+        "Initial Response to Reward",
+        "Reward Satiation",
+        "Probabilistic and Reinforcement Learning",
+        "Reward Prediction Error",
+        "Habit",
+        "Reward (ambiguity/risk)",
+        "Delay",
+        "Effort"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cognitive_systems",
+      "tag": "CS",
+      "name": "Cognitive Systems",
+      "prompt_file": "cognitive system.txt",
+      "vector_length": 22,
+      "dimension_labels": [
+        "Attention",
+        "Perception",
+        "Visual Perception",
+        "Auditory Perception",
+        "Olfactory Perception",
+        "Somatosensory Perception",
+        "Multimodal Perception",
+        "Declarative Memory",
+        "Language",
+        "Cognitive Control",
+        "Goal Selection",
+        "Goal Updating",
+        "Goal Representation",
+        "Maintenance",
+        "Response Selection",
+        "Inhibition/Suppression",
+        "Performance Monitoring",
+        "Working Memory",
+        "Active Maintenance",
+        "Flexible Updating",
+        "Limited Capacity",
+        "Interference Control"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "social_processes",
+      "tag": "SSP",
+      "name": "Systems for Social Processes",
+      "prompt_file": "system for social processes.txt",
+      "vector_length": 13,
+      "dimension_labels": [
+        "Affiliation and Attachment",
+        "Social Communication",
+        "Reception of Facial Communication",
+        "Production of Facial Communication",
+        "Reception of Non-Facial Communication",
+        "Production of Non-Facial Communication",
+        "Perception and Understanding of Self",
+        "Agency",
+        "Self-Knowledge",
+        "Perception and Understanding of Others",
+        "Animacy Perception",
+        "Action Perception",
+        "Understanding Mental States"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "arousal_regulatory",
+      "tag": "ARS",
+      "name": "Arousal and Regulatory Systems",
+      "prompt_file": "arousal_regulatory systems.txt",
+      "vector_length": 3,
+      "dimension_labels": [
+        "Arousal",
+        "Circadian Rhythms",
+        "Sleep and Wakefulness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sensorimotor_systems",
+      "tag": "SMS",
+      "name": "Sensorimotor Systems",
+      "prompt_file": "sensorimotor system.txt",
+      "vector_length": 9,
+      "dimension_labels": [
+        "Motor Actions",
+        "Action Planning and Selection",
+        "Sensorimotor Dynamics",
+        "Initiation",
+        "Execution",
+        "Inhibition and Termination",
+        "Agency and Ownership",
+        "Habit",
+        "Innate Motor Patterns"
+      ],
+      "enabled": true
+    }
+  ]
+}

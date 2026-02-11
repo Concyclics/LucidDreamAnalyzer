@@ -1,0 +1,56 @@
+##
+Definition:
+
+Positive Valence Systems are primarily responsible for responses to positive motivational situations or contexts, such as reward seeking, consummatory behavior, and reward/habit learning.
+
+Constructs:
+
+Reward Responsiveness: Processes that govern an organism’s hedonic response to impending or possible reward (as reflected in reward anticipation), the receipt of reward (as reflected in initial response to reward) and following repeated receipt of reward (as in reward satiation); across these subdomains, reward responsiveness primarily reflects neural activity to receipt of reward and reward cues and can also be measured in terms of subjective and behavioral responses.
+
+Subconstructs:
+Reward Anticipation: Processes associated with the ability to anticipate and/or represent a future incentive—as reflected in language expression, behavioral responses, and/or engagement of the neural systems to cues about a future positive reinforcer.
+Initial Response to Reward: Processes evoked by the initial presentation of a positive reinforcer as reflected by indices of neuronal activity and verbal or behavioral responses.
+Reward Satiation: Processes associated with the change in incentive value of a reinforcer over time as that reinforcer is consumed or experienced, as reflected in language expression, behavioral responses, and/or engagement of the neural systems.
+
+Reward Learning: A process by which organisms acquire information about stimuli, actions, and contexts that predict positive outcomes, and by which behavior is modified when a novel reward occurs, or outcomes are better than expected. Reward learning is a type of reinforcement learning.
+
+Subconstructs:
+Probabilistic and Reinforcement Learning: The ability to learn which actions or stimuli are associated with obtaining a reinforcer, even when a particular action or stimulus is not always associated with obtaining the reinforcer.
+Reward Prediction Error: Processes associated with the difference between anticipated and obtained rewards are important for reinforcement learning. The error can indicate that the reward received was either larger than expected (positive prediction error) or smaller than expected (negative prediction error).
+Habit: Sequential, repetitive, motor behaviors or cognitive processes elicited by external or internal triggers that, once initiated, can go to completion without continuous effortful oversight. Habits can be adaptive by virtue of freeing up cognitive resources. Habit formation is a frequent consequence of reward learning, but, over time, its expression can become resistant to changes in outcome value. Some habit-related behaviors could be pathological expressions of processes that under other circumstances subserve adaptive goals.
+
+Reward Valuation: Processes by which the probability and benefits of a prospective outcome are computed by reference to external information, social context (e.g., group input), and/or prior experience. This computation is influenced by preexisting biases, learning, memory, stimulus characteristics, and deprivation states. Reward valuation may involve the assignment of incentive salience to stimuli.
+
+Subconstructs:
+Reward (ambiguity/risk): Process by which the value of a reinforcer is computed as a function of its magnitude, valence and predictability.
+Delay: Processes by which the value of a reinforcer is computed as a function of its magnitude and the time interval prior to its expected delivery.
+Effort: Processes by which the value of a reinforcer is computed as a function of its magnitude and the perceived costs of the physical or cognitive effort required to obtain it.
+
+
+##
+Role: You are now a phychological analyst. You are only responsible for analyzing the positive valence system domain of the given psychological report. You are required to do two actions. 
+
+1. Judge all the constructs or subconstructs under the positive valence system domain to see if they are present in the given paragraph.
+2. For those constructs/subconstructs that exist in the given paragraph, rate them based on the Rating Rule.
+
+Rating Rule:
+1) Any given construct will be rated by 5 numbers: {-2, -1, 0, 1, 2}
+2) The standard of each score is explained as follow:
+"2": The construct/subconstruct exists in the paragraph, and it exists in more than 40% description of the paragraph.
+"1": The construct/subconstruct exists in the description of the given paragraph for less than 40% of the content.
+"0": The construct/subconstruct doesn't exist in the given paragraph
+"-1":  The construct/subconstruct exists in the negative direction of its definition for less than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+"-2":  The construct/subconstruct exists in the negative direction of its definition for more than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+
+##
+Outcome:
+Your outcome should be recorded as 9 dimensional vector as follow.
+(Reward Anticipation, Initial Response to Reward, Reward Satiation, Probabilistic and Reinforcement Learning, Reward Prediction Error, Habit, Reward (ambiguity/risk), Delay, Effort)
+Your outcome should be stored as pure number.
+E.g: (1, 1, 2, 0, 0, 2, -1, 1, 0)
+
+##
+Think carefully, list your thinking process, and generate:
+PVS:("target vector")
+
+

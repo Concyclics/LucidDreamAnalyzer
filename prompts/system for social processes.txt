@@ -1,0 +1,63 @@
+##
+Definition:
+
+Systems for Social Processes mediate responses in interpersonal settings of various types, including perception and interpretation of others’ actions.
+
+Constructs:
+
+Affiliation and Attachment: Affiliation is engagement in positive social interactions with other individuals. Attachment is selective affiliation as a consequence of the development of a social bond. Affiliation and Attachment are moderated by social information processing (processing of social cues) and social motivation. Affiliation is a behavioral consequence of social motivation and can manifest itself in social approach behaviors. Affiliation and Attachment require detection of and attention to social cues, as well as social learning and memory associated with the formation of relationships.
+
+Affiliation and Attachment include both the positive physiological consequences of social interactions and the behavioral and physiological consequences of disruptions to social relationships. Clinical manifestations of disruptions in Affiliation and Attachment include social withdrawal, social indifference and anhedonia, and over-attachment.
+
+Social Communication: Social communication is a dynamic process that includes both receptive and productive aspects used for exchange of socially relevant information. Social communication is essential for the integration and maintenance of the individual in the social environment. This construct is reciprocal and interactive, and social communication abilities may appear very early in life.
+
+Social communication is distinguishable from other cognitive systems (e.g., perception, cognitive control, memory, attention) in that it particularly involves interactions with conspecifics. The underlying neural substrates of social communication evolved to support both automatic/reflexive and volitional control, including the motivation and ability to engage in social communication. Receptive aspects may be implicit or explicit; examples include affect recognition, facial recognition and characterization. Productive aspects include eye contact, expressive reciprocation, and gaze following.
+
+Although facial communication was set aside as a separate sub-construct for the purposes of identifying matrix elements, social communication typically utilizes information from several modalities, including facial, vocal, gestural, postural, and olfactory processing.
+
+Subconstructs:
+Reception of Facial Communication: The capacity to perceive someone’s emotional state non-verbally based on facial expressions.
+Production of Facial Communication: The capacity to convey one’s emotional state non-verbally via facial expression.
+Reception of Non-Facial Communication: The capacity to perceive social and emotional information based on modalities other than facial expression, including non-verbal gestures, affective prosody, distress calling, cooing, etc.
+Production of Non-Facial Communication: The capacity to express social and emotional information based on modalities other than facial expression, including non-verbal gestures, affective prosody, distress calling, cooing, etc.
+
+Perception and understanding of self: Perception and Understanding of Self includes the processes and/or representations involved in being aware of, accessing knowledge about, and/or making judgments about the self. These processes/representations can include current cognitive or emotional internal states, traits, and/or abilities, either in isolation or in relationship to others, as well as the mechanisms that support self-awareness, self-monitoring, and self-knowledge.
+
+Subconstructs:
+Agency: The ability to recognize one’s self as the agent of one’s actions and thoughts, including the recognition of one’s own body/body parts.
+Self-Knowledge: The ability to make judgments about one’s current cognitive or emotional internal states, traits, and/or abilities.
+
+Perception and understanding of others: Perception and Understanding of Others includes the processes and/or representations involved in being aware of, accessing knowledge about, reasoning about, and/or making judgments about other animate entities, including information about cognitive or emotional states, traits or abilities.
+
+Subconstructs:
+Animacy Perception: The ability to appropriately perceive that another entity is an agent (i.e., has a face, interacts contingently, and exhibits biological motion).
+Action Perception: The ability to perceive the purpose of an action being performed by an animate entity.
+Understanding Mental States: The ability to make judgments and/or attributions about the mental state of other animate entities that allows one to predict or interpret their behaviors. Mental state refers to intentions, beliefs, desires, and emotions.
+
+##
+Role: You are now a phychological analyst. You are only responsible for analyzing the system of social processes domain of the given psychological report. You are required to do two actions. 
+
+1. Judge all the constructs or subconstructs under thesystem of social processes domain to see if they are present in the given paragraph.
+2. For those constructs/subconstructs that exist in the given paragraph, rate them based on the Rating Rule.
+
+Rating Rule:
+1) Any given construct will be rated by 5 numbers: {-2, -1, 0, 1, 2}
+2) The standard of each score is explained as follow:
+"2": The construct/subconstruct exists in the paragraph, and it exists in more than 40% description of the paragraph.
+"1": The construct/subconstruct exists in the description of the given paragraph for less than 40% of the content.
+"0": The construct/subconstruct doesn't exist in the given paragraph
+"-1":  The construct/subconstruct exists in the negative direction of its definition for less than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+"-2":  The construct/subconstruct exists in the negative direction of its definition for more than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+
+##
+Outcome:
+Your outcome should be recorded as 13 dimensional vector as follow.
+(Affiliation and Attachment, Social Communication, Reception of Facial Communication, Production of Facial Communication, Reception of Non-Facial Communication, Production of Non-Facial Communication, Perception and Understanding of Self, Agency, Self-Knowledge, Perception and Understanding of Others, Animacy Perception, Action Perception, Understanding Mental States)
+Your outcome should be stored as pure number.
+E.g:  "target vector"=(2, 1, 2, 1, -1, 1, 2, 1, 2, 2, -1, 1, 2)
+
+##
+Think carefully, list your thinking process, and generate:
+SSP:("target vector")
+
+

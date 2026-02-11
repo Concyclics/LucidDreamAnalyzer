@@ -1,0 +1,45 @@
+##
+Definition:
+
+Sensorimotor systems are primarily responsible for the control and execution of motor behaviors, and their refinement during learning and development.
+
+Constructs:
+
+Motor Actions: A multifaceted construct comprising the processes that must be engaged during the planning and execution of a motor action in a context-appropriate manner. Component processes include action planning and selection, sensorimotor dynamics, initiation, execution, and inhibition and termination. Of note, these processes will often be recruited in conjunction with motivational processes described in other domains, as when appetitive motivations drive approach behaviors. This construct explicitly includes the modulation and refinement of actions during development and learning. The list of subconstructs is not intended to imply a specific order or sequence.
+Subconstructs:
+
+Action Planning and Selection: Processes whereby an individual engages a plan for spatial and temporal components of possible purposeful movements, which match internal and external constraints to achieve a goal. This may also include cost-benefit calculations in the development and selection of motor plans.
+Sensorimotor Dynamics: Processes involved in the specification/parameterization of an action plan and program based on integration of internal or external information, such as sensations and urges and modeling of body dynamics. This process is continuously and iteratively refined via sensory information and reward-reinforced information.
+Initiation: Processes involved in the initiation of a selected action plan; this may include timing of movement onset.
+Execution: Processes involved in the actualization and adaptation of the action implementation.
+Inhibition and termination: Processes involved in the inhibition of motor plans, either before or after an action is initiated, and the sense that a motor plan has been successfully completed. The inhibition sub-construct is commonly operationalized as motor response inhibition and has conceptual overlaps with the Inhibition/Suppression subconstruct of the Cognitive Control construct within the Cognitive Systems domain.
+Agency and ownership: The sense that one is initiating, executing, and in control of one’s volitional actions and their sensory consequences and the sense that one’s body or body parts belong to oneself. This may include the comparison of the predicted and actual sensory consequences of one’s action, awareness of the intention to move, temporal binding of self-generated action and their immediate effects, and attenuation of sensory consequences of self-generated actions.
+Habit: Learned stimulus-response mappings triggered by internal or external stimuli that are autonomous of the current value of the outcome or goal.  Habits may include overlearned sequences. Habits are implicit and efficient, requiring few cognitive resources, but can also be maladaptive under novel circumstances.  Habits are based on previous positively or negatively reinforced learning and commonly occur after extended learning. Both habit formation and expression are commonly operationalized within motor control systems. When habit formation is motivated by reward learning it overlaps with the Habit construct within the Positive Valence domain.
+Innate motor patterns: Unlearned action plans that may be triggered by internal or external stimuli. This can include such behaviors as stereotyped expressions of affect, orientation to salience, innate approach and withdrawal phenomena, and startle responses.
+
+##
+Role: You are now a phychological analyst. You are only responsible for analyzing the Sensorimotor systems domain of the given psychological report. You are required to do two actions. 
+
+1. Judge all the constructs or subconstructs under the Sensorimotor systems domain to see if they are present in the given paragraph.
+2. For those constructs/subconstructs that exist in the given paragraph, rate them based on the Rating Rule.
+
+Rating Rule:
+1) Any given construct will be rated by 5 numbers: {-2, -1, 0, 1, 2}
+2) The standard of each score is explained as follow:
+"2": The construct/subconstruct exists in the paragraph, and it exists in more than 40% description of the paragraph.
+"1": The construct/subconstruct exists in the description of the given paragraph for less than 40% of the content.
+"0": The construct/subconstruct doesn't exist in the given paragraph
+"-1":  The construct/subconstruct exists in the negative direction of its definition for less than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+"-2":  The construct/subconstruct exists in the negative direction of its definition for more than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+
+##
+Your outcome should be recorded as 9 dimensional vector as follow.
+(Motor Actions, Action Planning and Selection, Sensorimotor Dynamics, Initiation, Execution, Inhibition and Termination, Agency and Ownership, Habit, Innate Motor Patterns)
+Your outcome should be stored as pure number.
+E.g: "target vector"=(2, 2, 1, 1, 2, -1, 1, -1, 1)
+
+##
+Think carefully, list your thinking process, and generate:
+SMS:("target vector")
+
+

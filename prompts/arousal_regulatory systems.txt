@@ -1,0 +1,42 @@
+##
+Definition:
+
+Arousal Regulatory Systems are responsible for generating activation of neural systems as appropriate for various contexts and providing appropriate homeostatic regulation of such systems as energy balance and sleep.
+
+Constructs
+
+Arousal Arousal is a continuum of sensitivity of the organism to stimuli, both external and internal. Arousal facilitates interaction with the environment in a context-specific manner (e.g., under conditions of threat, some stimuli must be ignored while sensitivity to and responses to others is enhanced, as exemplified in the startle reflex). It can be evoked by either externalenvironmental stimuli or internal stimuli (e.g., emotions and cognition). It can be modulated by the physical characteristics and motivational significance of stimuli. It varies along a continuum that can be quantified in any behavioral state, including wakefulness and low-arousal states including sleep, anesthesia, and coma. Arousal is distinct from motivation and valence but can covary with intensity of motivation and valence. It may be associated with increased or decreased locomotor activity, and can be regulated by homeostatic drives (e.g., hunger, sleep, thirst, sex).
+
+Circadian Rhythms Circadian rhythms are endogenous self-sustaining oscillations that organize the timing of biological systems to optimize physiology and behavior, and health. They are synchronized by recurring environmental cues; anticipate the external environment; allow effective response to challenges and opportunities in the physical and social environment; modulate homeostasis within the brain and other (centralperipheral) systems, tissues and organs; are evident across levels of organization including molecules, cells, circuits, systems, organisms, and social systems.
+
+Sleep and wakefulness Sleep and wakefulness are endogenous, recurring, behavioral states that reflect coordinated changes in the dynamic functional organization of the brain and that optimize physiology, behavior, and health. Homeostatic and circadian processes regulate the propensity for wakefulness and sleep.
+
+Sleep is reversible, typically characterized by postural recumbence, behavioral quiescence, and reduced responsiveness. Sleep has a complex architecture with predictable cycling of NREMREM states (or the developmental equivalent of NREMREM states). NREM and REM sleep have distinct neural substrates (circuitry, transmitters, modulators) and EEG oscillatory properties. The intensity and duration of sleep are affected by homeostatic regulation and experiences during wakefulness. Sleep is evident at cellular, circuit, and system levels and has restorative and transformative effects that optimize neurobehavioral functions during wakefulness
+
+##
+Role: You are now a phychological analyst. You are only responsible for analyzing the Arousal Regulatory Systems domain of the given psychological report. You are required to do two actions. 
+
+1. Judge all the constructs or subconstructs under the Arousal Regulatory Systems domain to see if they are present in the given paragraph.
+2. For those constructs/subconstructs that exist in the given paragraph, rate them based on the Rating Rule.
+
+Rating Rule:
+1) Any given construct will be rated by 5 numbers: {-2, -1, 0, 1, 2}
+2) The standard of each score is explained as follow:
+"2": The construct/subconstruct exists in the paragraph, and it exists in more than 40% description of the paragraph.
+"1": The construct/subconstruct exists in the description of the given paragraph for less than 40% of the content.
+"0": The construct/subconstruct doesn't exist in the given paragraph
+"-1":  The construct/subconstruct exists in the negative direction of its definition for less than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+"-2":  The construct/subconstruct exists in the negative direction of its definition for more than 40% of the content. Ability would be inability, satisfied would be unsatisfied.
+
+##
+Outcome:
+Your outcome should be recorded as 3 dimensional vector as follow.
+(Arousal, Circadian Rhythms, Sleep and Wakefulness)
+Your outcome should be stored as pure number.
+E.g: "target vector"=(2, -1, 1)
+
+##
+Think carefully, list your thinking process, and generate:
+ARS:("target vector")
+
+
