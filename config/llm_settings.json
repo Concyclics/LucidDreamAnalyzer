@@ -1,0 +1,14 @@
+{
+  "api_key": "YOU_API_KEY_HERE",
+  "base_url": "https://api.deepseek.com",
+  "analyzer_model": "deepseek-reasoner",
+  "summarizer_model": "deepseek-chat",
+  "analyzer_temperature": 0.0,
+  "summarizer_temperature": 0.0,
+  "timeout_s": 60,
+  "max_retries": 2,
+  "backoff_base_s": 0.8,
+  "backoff_factor": 2.0,
+  "analyzer_disable_thinking": null,
+  "summarizer_disable_thinking": null
+}
